@@ -1,3 +1,7 @@
+#subFolders
+bower_components/
+node_modules/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

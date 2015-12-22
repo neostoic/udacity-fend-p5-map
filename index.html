@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.css" media="screen,projection" />
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>West Dover Vermont, Places</title>
+</head>
+
+<body>
+  <div id="map"></div>
+  <!-- Filters and Related -->
+  <div id="filters">
+    <div id="tags">
+      <div id="tagInput">
+        <form class="z-depth-4" data-bind="submit: addTag">
+          <div class="input-field col s6">
+            <input placeholder="Add Tags... One at a Time." type="text" class="validate" data-bind='value: tagToAdd, valueUpdate: "afterkeydown"' />
+          </div>
+          <button class="btn waves-effect waves-green add" data-bind="enable: tagToAdd().length > 0">Add <i class="fa fa-plus-circle right"></i></button>
+          <button class="btn waves-effect waves-red remove" data-bind="click: removeLastTag, enable: tags().length > 0">Remove<i class="fa fa-times right"></i></button>
+        </form>
+      </div>
+      <div id="tagBox" data-bind="css: {visible: tags().length > 0}" class="z-depth-2">
+        <ul data-bind="foreach: tags">
+          <li class="chip" data-bind="text: $data"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Results Display -->
+  <div id="fourSquare">
+    <ul class="collapsible popout z-depth-5" data-collapsible="accordion" data-bind="">
+      <li class "z-depth-5">
+        <div class="collapsible-header" data-bind="">FourSquare Places<i class="fa fa-foursquare fa-lg"></i></div>
+        <div class="collapsible-body">
+          <p>Four Square Results Go Here</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Script Stuff -->
+
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkVsabjVbGABsd4Cu0_3keXBDV0t0MsLM&libraries=places,visualization&callback=initMap">
+  </script> -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/materialize/dist/js/materialize.js"></script>
+  <script src="bower_components/knockout/dist/knockout.js"></script>
+  <script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/oauth.js"></script>
+  <script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/sha1.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
