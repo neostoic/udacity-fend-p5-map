@@ -121,8 +121,8 @@ function appVM() {
   self.dispResults = function(defLocations) {
     self.dispResultsList = [];
     self.searchList = [];
-    for (i = 0; i < defLocations.length; i++) {
-      var item = defLocations[i].name;
+    for (i = 0; i < model.defLocations.length; i++) {
+      var item = model.defLocations[i].name;
       self.dispResultsList.push(item);
       // We can Uncomment below for Case Insensitive search, we'll
       // test a little more before we do.
@@ -189,12 +189,12 @@ function appVM() {
   // service worker one day.
 
   self.fsApiCall = function(defLocations) {
-    for (var i = 0; i < defLocations.length; i++) {
+    for (var i = 0; i < model.defLocations.length; i++) {
       var url = "https://api.foursquare.com/v2/venues/" +
-        defLocations[i].venue_id +
+        model.defLocations[i].venue_id +
         "?client_id=" + FSCLIENT_ID +
         "&client_secret=" + FSCLIENT_SECRET +
-        "&v=20151220&callback=self.fsCallBack";
+        "&v=20151220&callback=appVM.fsCallBack";
       var newFSscript = document.createElement("script");
       newFSscript.setAttribute('src', url);
       newFSscript.setAttribute('id', 'jsonp');
@@ -207,6 +207,7 @@ function appVM() {
         head.appendChild(newFSscript);
       } else {
         head.replaceChild(newFSscript, expiredFSscript);
+        console.log('New Script Ran');
       }
     }
   };
@@ -239,25 +240,28 @@ function appVM() {
           data.response.venue.photos.groups[0].items[0].suffix +
           "'</img>";
         item.setContent(infoWindowHTML);
+        console.log('Info Window Content Good');
+      } else {
+        console.log('Name MisMatch');
       }
     });
   };
 
-  function addMarker(map, latlong, title, content, icon) {
+  function addMarker(map, latlng, title, content, icon) {
     var markerOptions = {
-      position: latlong,
+      position: latlng,
       map: map,
       title: title,
       animation: google.maps.Animation.DROP,
       clickable: true,
-      icon: icon
+      //icon: icon
     };
     var marker = new google.maps.Marker(markerOptions);
-    mark.addListener('click', toggleBounce);
+    marker.addListener('click', toggleBounce);
 
     var infoWindowOptions = {
       content: content,
-      position: latlong
+      position: latlng
     };
     var infoWindow = new google.maps.InfoWindow(infoWindowOptions);
     model.infoWindows.push(infoWindow);
@@ -294,10 +298,10 @@ function appVM() {
   self.initMap =  function(data) {
     for (var i = 0; i < data.length; i++) {
       var location = data[i];
-      var gMapLatLong = new google.maps.LatLng(defLocations.lat, defLocations.lng);
-      var windowContent = defLocations.name;
+      var gMapLatLong = new google.maps.LatLng(model.defLocations.lat, model.defLocations.lng);
+      var windowContent = model.defLocations.name;
       //creates Marker, Adds to map
-      var marker = addMarker(self.map, gMapLatLong, defLocations.name, windowContent, defLocations.icon);
+      var marker = addMarker(self.map, gMapLatLong, model.defLocations.name, windowContent, model.defLocations.icon);
       // Makrers to Data Model
       model.markers.push(marker);
     }
