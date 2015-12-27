@@ -64,15 +64,15 @@
   },
   "devDependencies": {},
   "homepage": "https://github.com/Dogfalo/materialize",
-  "version": "0.97.4",
-  "_release": "0.97.4",
+  "version": "0.97.5",
+  "_release": "0.97.5",
   "_resolution": {
     "type": "version",
-    "tag": "v0.97.4",
-    "commit": "38196635e31a13c83a188d589b33ce851b89285a"
+    "tag": "v0.97.5",
+    "commit": "dc69e030f1c3b4b0da5fbf0e29edac5d09e1829b"
   },
   "_source": "git://github.com/Dogfalo/materialize.git",
-  "_target": "~0.97.4",
+  "_target": "~0.97.5",
   "_originalSource": "materialize",
   "_direct": true
 }
