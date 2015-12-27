@@ -1,0 +1,872 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 silly mapToRegistry name bower
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/bower
+8 silly mapToRegistry name gulp
+9 silly mapToRegistry using default registry
+10 silly mapToRegistry registry https://registry.npmjs.org/
+11 silly mapToRegistry uri https://registry.npmjs.org/gulp
+12 silly mapToRegistry name browser-sync
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+16 silly mapToRegistry name del
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/del
+20 silly mapToRegistry name gulp-autoprefixer
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/gulp-autoprefixer
+24 silly mapToRegistry name gulp-cache
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/gulp-cache
+28 silly mapToRegistry name gulp-concat
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+32 silly mapToRegistry name gulp-concat-css
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat-css
+36 silly mapToRegistry name gulp-fontgen
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/gulp-fontgen
+40 silly mapToRegistry name gulp-google-webfonts
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/gulp-google-webfonts
+44 silly mapToRegistry name gulp-html-replace
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/gulp-html-replace
+48 silly mapToRegistry name gulp-image-resize
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/gulp-image-resize
+52 silly mapToRegistry name gulp-imagemin
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/gulp-imagemin
+56 silly mapToRegistry name gulp-jshint
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/gulp-jshint
+60 silly mapToRegistry name gulp-livereload
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/gulp-livereload
+64 silly mapToRegistry name gulp-cssnano
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/gulp-cssnano
+68 silly mapToRegistry name gulp-htmlmin
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/gulp-htmlmin
+72 silly mapToRegistry name gulp-notify
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/gulp-notify
+76 silly mapToRegistry name gulp-rename
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+80 silly mapToRegistry name gulp-uglify
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+84 silly mapToRegistry name run-sequence
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry uri https://registry.npmjs.org/run-sequence
+88 silly mapToRegistry name vinyl-fs
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/vinyl-fs
+92 verbose request uri https://registry.npmjs.org/gulp-autoprefixer
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 12:48:31 PM
+95 verbose request id d0f4eead733848cd
+96 verbose etag "CUXH199R3JR0UX97969QEFN6M"
+97 http request GET https://registry.npmjs.org/gulp-autoprefixer
+98 verbose request uri https://registry.npmjs.org/gulp-concat-css
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 12:48:31 PM
+101 verbose etag "9KP2KV61CS4Q6IK8IW31A05U5"
+102 http request GET https://registry.npmjs.org/gulp-concat-css
+103 verbose request uri https://registry.npmjs.org/del
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 12:48:31 PM
+106 verbose etag "1Q5JMMG4WIMH152I4295FP76M"
+107 http request GET https://registry.npmjs.org/del
+108 verbose request uri https://registry.npmjs.org/gulp-cache
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 12:48:31 PM
+111 verbose etag "A06PXUM4L48Y55LW6HM9J7RKD"
+112 http request GET https://registry.npmjs.org/gulp-cache
+113 verbose request uri https://registry.npmjs.org/gulp-google-webfonts
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 12:48:31 PM
+116 verbose etag "MOWP6UA0KLADT95VOYA2EB0B"
+117 http request GET https://registry.npmjs.org/gulp-google-webfonts
+118 verbose request uri https://registry.npmjs.org/browser-sync
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 12:48:31 PM
+121 verbose etag "3TE719FVDDSM6XG0YWLQL063B"
+122 http request GET https://registry.npmjs.org/browser-sync
+123 verbose request uri https://registry.npmjs.org/gulp-jshint
+124 verbose request no auth needed
+125 info attempt registry request try #1 at 12:48:31 PM
+126 verbose etag "CSASFV3W9IVSVGLIAWGLME3ZI"
+127 http request GET https://registry.npmjs.org/gulp-jshint
+128 verbose request uri https://registry.npmjs.org/gulp-livereload
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 12:48:31 PM
+131 verbose etag "1442OFW275QIKHQS1QFS0R8LL"
+132 http request GET https://registry.npmjs.org/gulp-livereload
+133 verbose request uri https://registry.npmjs.org/gulp-cssnano
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 12:48:31 PM
+136 verbose etag "AYZLF2636IAX6Y8HXWQXSKKFS"
+137 http request GET https://registry.npmjs.org/gulp-cssnano
+138 verbose request uri https://registry.npmjs.org/gulp-htmlmin
+139 verbose request no auth needed
+140 info attempt registry request try #1 at 12:48:31 PM
+141 verbose etag "C8CWUUN1JEENCUF16MJAZSODO"
+142 http request GET https://registry.npmjs.org/gulp-htmlmin
+143 verbose request uri https://registry.npmjs.org/gulp
+144 verbose request no auth needed
+145 info attempt registry request try #1 at 12:48:31 PM
+146 verbose etag "ATTOQFOJNBTSDNW5FT8HENJ6J"
+147 http request GET https://registry.npmjs.org/gulp
+148 verbose request uri https://registry.npmjs.org/gulp-imagemin
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 12:48:31 PM
+151 verbose etag "6XFD5KJ8KJTCY9SFOZD10V7VG"
+152 http request GET https://registry.npmjs.org/gulp-imagemin
+153 verbose request uri https://registry.npmjs.org/bower
+154 verbose request no auth needed
+155 info attempt registry request try #1 at 12:48:31 PM
+156 verbose etag "IHKBUPL0V7X1A6KBRSD62UIU"
+157 http request GET https://registry.npmjs.org/bower
+158 verbose request uri https://registry.npmjs.org/gulp-fontgen
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 12:48:31 PM
+161 verbose etag "7B1O7I3O1Q0MR01N33ZI1BO85"
+162 http request GET https://registry.npmjs.org/gulp-fontgen
+163 verbose request uri https://registry.npmjs.org/gulp-concat
+164 verbose request no auth needed
+165 info attempt registry request try #1 at 12:48:31 PM
+166 verbose etag "8Z2RKJSSBJXTWEPAC6P8GEHO"
+167 http request GET https://registry.npmjs.org/gulp-concat
+168 verbose request uri https://registry.npmjs.org/gulp-html-replace
+169 verbose request no auth needed
+170 info attempt registry request try #1 at 12:48:31 PM
+171 verbose etag "CWXHHE46WCZALB98XDYNEZLA0"
+172 http request GET https://registry.npmjs.org/gulp-html-replace
+173 verbose request uri https://registry.npmjs.org/gulp-image-resize
+174 verbose request no auth needed
+175 info attempt registry request try #1 at 12:48:31 PM
+176 verbose etag "2T38324VAZ42I9JBE1AJ8GYI0"
+177 http request GET https://registry.npmjs.org/gulp-image-resize
+178 verbose request uri https://registry.npmjs.org/gulp-uglify
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 12:48:31 PM
+181 verbose etag "4ZI7RQOAO1RAWR0WP2LQGIU0D"
+182 http request GET https://registry.npmjs.org/gulp-uglify
+183 verbose request uri https://registry.npmjs.org/gulp-notify
+184 verbose request no auth needed
+185 info attempt registry request try #1 at 12:48:31 PM
+186 verbose etag "2NEYNTDVIY7FCZ94PFAGMQ27R"
+187 http request GET https://registry.npmjs.org/gulp-notify
+188 verbose request uri https://registry.npmjs.org/gulp-rename
+189 verbose request no auth needed
+190 info attempt registry request try #1 at 12:48:31 PM
+191 verbose etag "L6G7ALRPN0TXZ2ORW9A9AKHZ"
+192 http request GET https://registry.npmjs.org/gulp-rename
+193 verbose request uri https://registry.npmjs.org/vinyl-fs
+194 verbose request no auth needed
+195 info attempt registry request try #1 at 12:48:31 PM
+196 verbose etag "8JPCD53DEOT13B701Y469OSH3"
+197 http request GET https://registry.npmjs.org/vinyl-fs
+198 http 304 https://registry.npmjs.org/gulp-autoprefixer
+199 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+199 verbose headers   via: '1.1 varnish',
+199 verbose headers   'cache-control': 'max-age=300',
+199 verbose headers   etag: '"CUXH199R3JR0UX97969QEFN6M"',
+199 verbose headers   age: '206',
+199 verbose headers   connection: 'keep-alive',
+199 verbose headers   'x-served-by': 'cache-iad2137-IAD',
+199 verbose headers   'x-cache': 'HIT',
+199 verbose headers   'x-cache-hits': '1',
+199 verbose headers   'x-timer': 'S1451238512.302738,VS0,VE0',
+199 verbose headers   vary: 'Accept' }
+200 silly get cb [ 304,
+200 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+200 silly get     via: '1.1 varnish',
+200 silly get     'cache-control': 'max-age=300',
+200 silly get     etag: '"CUXH199R3JR0UX97969QEFN6M"',
+200 silly get     age: '206',
+200 silly get     connection: 'keep-alive',
+200 silly get     'x-served-by': 'cache-iad2137-IAD',
+200 silly get     'x-cache': 'HIT',
+200 silly get     'x-cache-hits': '1',
+200 silly get     'x-timer': 'S1451238512.302738,VS0,VE0',
+200 silly get     vary: 'Accept' } ]
+201 verbose etag https://registry.npmjs.org/gulp-autoprefixer from cache
+202 verbose get saving gulp-autoprefixer to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-autoprefixer\.cache.json
+203 http 304 https://registry.npmjs.org/gulp-jshint
+204 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+204 verbose headers   via: '1.1 varnish',
+204 verbose headers   'cache-control': 'max-age=300',
+204 verbose headers   etag: '"CSASFV3W9IVSVGLIAWGLME3ZI"',
+204 verbose headers   age: '209',
+204 verbose headers   connection: 'keep-alive',
+204 verbose headers   'x-served-by': 'cache-iad2143-IAD',
+204 verbose headers   'x-cache': 'HIT',
+204 verbose headers   'x-cache-hits': '1',
+204 verbose headers   'x-timer': 'S1451238512.326390,VS0,VE0',
+204 verbose headers   vary: 'Accept' }
+205 silly get cb [ 304,
+205 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+205 silly get     via: '1.1 varnish',
+205 silly get     'cache-control': 'max-age=300',
+205 silly get     etag: '"CSASFV3W9IVSVGLIAWGLME3ZI"',
+205 silly get     age: '209',
+205 silly get     connection: 'keep-alive',
+205 silly get     'x-served-by': 'cache-iad2143-IAD',
+205 silly get     'x-cache': 'HIT',
+205 silly get     'x-cache-hits': '1',
+205 silly get     'x-timer': 'S1451238512.326390,VS0,VE0',
+205 silly get     vary: 'Accept' } ]
+206 verbose etag https://registry.npmjs.org/gulp-jshint from cache
+207 verbose get saving gulp-jshint to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-jshint\.cache.json
+208 http 304 https://registry.npmjs.org/gulp-livereload
+209 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+209 verbose headers   via: '1.1 varnish',
+209 verbose headers   'cache-control': 'max-age=300',
+209 verbose headers   etag: '"1442OFW275QIKHQS1QFS0R8LL"',
+209 verbose headers   age: '9',
+209 verbose headers   connection: 'keep-alive',
+209 verbose headers   'x-served-by': 'cache-iad2131-IAD',
+209 verbose headers   'x-cache': 'HIT',
+209 verbose headers   'x-cache-hits': '1',
+209 verbose headers   'x-timer': 'S1451238512.327562,VS0,VE0',
+209 verbose headers   vary: 'Accept' }
+210 silly get cb [ 304,
+210 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+210 silly get     via: '1.1 varnish',
+210 silly get     'cache-control': 'max-age=300',
+210 silly get     etag: '"1442OFW275QIKHQS1QFS0R8LL"',
+210 silly get     age: '9',
+210 silly get     connection: 'keep-alive',
+210 silly get     'x-served-by': 'cache-iad2131-IAD',
+210 silly get     'x-cache': 'HIT',
+210 silly get     'x-cache-hits': '1',
+210 silly get     'x-timer': 'S1451238512.327562,VS0,VE0',
+210 silly get     vary: 'Accept' } ]
+211 verbose etag https://registry.npmjs.org/gulp-livereload from cache
+212 verbose get saving gulp-livereload to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-livereload\.cache.json
+213 http 304 https://registry.npmjs.org/del
+214 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+214 verbose headers   via: '1.1 varnish',
+214 verbose headers   'cache-control': 'max-age=300',
+214 verbose headers   etag: '"1Q5JMMG4WIMH152I4295FP76M"',
+214 verbose headers   age: '106',
+214 verbose headers   connection: 'keep-alive',
+214 verbose headers   'x-served-by': 'cache-iad2123-IAD',
+214 verbose headers   'x-cache': 'HIT',
+214 verbose headers   'x-cache-hits': '1',
+214 verbose headers   'x-timer': 'S1451238512.333171,VS0,VE0',
+214 verbose headers   vary: 'Accept' }
+215 silly get cb [ 304,
+215 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+215 silly get     via: '1.1 varnish',
+215 silly get     'cache-control': 'max-age=300',
+215 silly get     etag: '"1Q5JMMG4WIMH152I4295FP76M"',
+215 silly get     age: '106',
+215 silly get     connection: 'keep-alive',
+215 silly get     'x-served-by': 'cache-iad2123-IAD',
+215 silly get     'x-cache': 'HIT',
+215 silly get     'x-cache-hits': '1',
+215 silly get     'x-timer': 'S1451238512.333171,VS0,VE0',
+215 silly get     vary: 'Accept' } ]
+216 verbose etag https://registry.npmjs.org/del from cache
+217 verbose get saving del to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\del\.cache.json
+218 http 304 https://registry.npmjs.org/gulp-concat
+219 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+219 verbose headers   via: '1.1 varnish',
+219 verbose headers   'cache-control': 'max-age=300',
+219 verbose headers   etag: '"8Z2RKJSSBJXTWEPAC6P8GEHO"',
+219 verbose headers   age: '206',
+219 verbose headers   connection: 'keep-alive',
+219 verbose headers   'x-served-by': 'cache-iad2138-IAD',
+219 verbose headers   'x-cache': 'HIT',
+219 verbose headers   'x-cache-hits': '1',
+219 verbose headers   'x-timer': 'S1451238512.337193,VS0,VE0',
+219 verbose headers   vary: 'Accept' }
+220 silly get cb [ 304,
+220 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+220 silly get     via: '1.1 varnish',
+220 silly get     'cache-control': 'max-age=300',
+220 silly get     etag: '"8Z2RKJSSBJXTWEPAC6P8GEHO"',
+220 silly get     age: '206',
+220 silly get     connection: 'keep-alive',
+220 silly get     'x-served-by': 'cache-iad2138-IAD',
+220 silly get     'x-cache': 'HIT',
+220 silly get     'x-cache-hits': '1',
+220 silly get     'x-timer': 'S1451238512.337193,VS0,VE0',
+220 silly get     vary: 'Accept' } ]
+221 verbose etag https://registry.npmjs.org/gulp-concat from cache
+222 verbose get saving gulp-concat to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-concat\.cache.json
+223 http 304 https://registry.npmjs.org/gulp-rename
+224 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+224 verbose headers   via: '1.1 varnish',
+224 verbose headers   'cache-control': 'max-age=300',
+224 verbose headers   etag: '"L6G7ALRPN0TXZ2ORW9A9AKHZ"',
+224 verbose headers   age: '138',
+224 verbose headers   connection: 'keep-alive',
+224 verbose headers   'x-served-by': 'cache-iad2148-IAD',
+224 verbose headers   'x-cache': 'HIT',
+224 verbose headers   'x-cache-hits': '1',
+224 verbose headers   'x-timer': 'S1451238512.339978,VS0,VE0',
+224 verbose headers   vary: 'Accept' }
+225 silly get cb [ 304,
+225 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+225 silly get     via: '1.1 varnish',
+225 silly get     'cache-control': 'max-age=300',
+225 silly get     etag: '"L6G7ALRPN0TXZ2ORW9A9AKHZ"',
+225 silly get     age: '138',
+225 silly get     connection: 'keep-alive',
+225 silly get     'x-served-by': 'cache-iad2148-IAD',
+225 silly get     'x-cache': 'HIT',
+225 silly get     'x-cache-hits': '1',
+225 silly get     'x-timer': 'S1451238512.339978,VS0,VE0',
+225 silly get     vary: 'Accept' } ]
+226 verbose etag https://registry.npmjs.org/gulp-rename from cache
+227 verbose get saving gulp-rename to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-rename\.cache.json
+228 http 304 https://registry.npmjs.org/gulp-notify
+229 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+229 verbose headers   via: '1.1 varnish',
+229 verbose headers   'cache-control': 'max-age=300',
+229 verbose headers   etag: '"2NEYNTDVIY7FCZ94PFAGMQ27R"',
+229 verbose headers   age: '105',
+229 verbose headers   connection: 'keep-alive',
+229 verbose headers   'x-served-by': 'cache-iad2148-IAD',
+229 verbose headers   'x-cache': 'HIT',
+229 verbose headers   'x-cache-hits': '1',
+229 verbose headers   'x-timer': 'S1451238512.339980,VS0,VE0',
+229 verbose headers   vary: 'Accept' }
+230 silly get cb [ 304,
+230 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+230 silly get     via: '1.1 varnish',
+230 silly get     'cache-control': 'max-age=300',
+230 silly get     etag: '"2NEYNTDVIY7FCZ94PFAGMQ27R"',
+230 silly get     age: '105',
+230 silly get     connection: 'keep-alive',
+230 silly get     'x-served-by': 'cache-iad2148-IAD',
+230 silly get     'x-cache': 'HIT',
+230 silly get     'x-cache-hits': '1',
+230 silly get     'x-timer': 'S1451238512.339980,VS0,VE0',
+230 silly get     vary: 'Accept' } ]
+231 verbose etag https://registry.npmjs.org/gulp-notify from cache
+232 verbose get saving gulp-notify to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-notify\.cache.json
+233 http 304 https://registry.npmjs.org/gulp-cssnano
+234 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+234 verbose headers   via: '1.1 varnish',
+234 verbose headers   'cache-control': 'max-age=300',
+234 verbose headers   etag: '"AYZLF2636IAX6Y8HXWQXSKKFS"',
+234 verbose headers   age: '0',
+234 verbose headers   connection: 'keep-alive',
+234 verbose headers   'x-served-by': 'cache-iad2130-IAD',
+234 verbose headers   'x-cache': 'MISS',
+234 verbose headers   'x-cache-hits': '0',
+234 verbose headers   'x-timer': 'S1451238512.334769,VS0,VE12',
+234 verbose headers   vary: 'Accept' }
+235 silly get cb [ 304,
+235 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+235 silly get     via: '1.1 varnish',
+235 silly get     'cache-control': 'max-age=300',
+235 silly get     etag: '"AYZLF2636IAX6Y8HXWQXSKKFS"',
+235 silly get     age: '0',
+235 silly get     connection: 'keep-alive',
+235 silly get     'x-served-by': 'cache-iad2130-IAD',
+235 silly get     'x-cache': 'MISS',
+235 silly get     'x-cache-hits': '0',
+235 silly get     'x-timer': 'S1451238512.334769,VS0,VE12',
+235 silly get     vary: 'Accept' } ]
+236 verbose etag https://registry.npmjs.org/gulp-cssnano from cache
+237 verbose get saving gulp-cssnano to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-cssnano\.cache.json
+238 http 304 https://registry.npmjs.org/browser-sync
+239 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+239 verbose headers   via: '1.1 varnish',
+239 verbose headers   'cache-control': 'max-age=300',
+239 verbose headers   etag: '"3TE719FVDDSM6XG0YWLQL063B"',
+239 verbose headers   age: '0',
+239 verbose headers   connection: 'keep-alive',
+239 verbose headers   'x-served-by': 'cache-iad2133-IAD',
+239 verbose headers   'x-cache': 'HIT',
+239 verbose headers   'x-cache-hits': '1',
+239 verbose headers   'x-timer': 'S1451238512.333310,VS0,VE13',
+239 verbose headers   vary: 'Accept' }
+240 silly get cb [ 304,
+240 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+240 silly get     via: '1.1 varnish',
+240 silly get     'cache-control': 'max-age=300',
+240 silly get     etag: '"3TE719FVDDSM6XG0YWLQL063B"',
+240 silly get     age: '0',
+240 silly get     connection: 'keep-alive',
+240 silly get     'x-served-by': 'cache-iad2133-IAD',
+240 silly get     'x-cache': 'HIT',
+240 silly get     'x-cache-hits': '1',
+240 silly get     'x-timer': 'S1451238512.333310,VS0,VE13',
+240 silly get     vary: 'Accept' } ]
+241 verbose etag https://registry.npmjs.org/browser-sync from cache
+242 verbose get saving browser-sync to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\browser-sync\.cache.json
+243 http 304 https://registry.npmjs.org/gulp-htmlmin
+244 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+244 verbose headers   via: '1.1 varnish',
+244 verbose headers   'cache-control': 'max-age=300',
+244 verbose headers   etag: '"C8CWUUN1JEENCUF16MJAZSODO"',
+244 verbose headers   age: '2',
+244 verbose headers   connection: 'keep-alive',
+244 verbose headers   'x-served-by': 'cache-iad2133-IAD',
+244 verbose headers   'x-cache': 'HIT',
+244 verbose headers   'x-cache-hits': '1',
+244 verbose headers   'x-timer': 'S1451238512.347138,VS0,VE0',
+244 verbose headers   vary: 'Accept' }
+245 silly get cb [ 304,
+245 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+245 silly get     via: '1.1 varnish',
+245 silly get     'cache-control': 'max-age=300',
+245 silly get     etag: '"C8CWUUN1JEENCUF16MJAZSODO"',
+245 silly get     age: '2',
+245 silly get     connection: 'keep-alive',
+245 silly get     'x-served-by': 'cache-iad2133-IAD',
+245 silly get     'x-cache': 'HIT',
+245 silly get     'x-cache-hits': '1',
+245 silly get     'x-timer': 'S1451238512.347138,VS0,VE0',
+245 silly get     vary: 'Accept' } ]
+246 verbose etag https://registry.npmjs.org/gulp-htmlmin from cache
+247 verbose get saving gulp-htmlmin to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-htmlmin\.cache.json
+248 http 304 https://registry.npmjs.org/gulp-uglify
+249 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+249 verbose headers   via: '1.1 varnish',
+249 verbose headers   'cache-control': 'max-age=300',
+249 verbose headers   etag: '"4ZI7RQOAO1RAWR0WP2LQGIU0D"',
+249 verbose headers   age: '0',
+249 verbose headers   connection: 'keep-alive',
+249 verbose headers   'x-served-by': 'cache-iad2139-IAD',
+249 verbose headers   'x-cache': 'HIT',
+249 verbose headers   'x-cache-hits': '1',
+249 verbose headers   'x-timer': 'S1451238512.341899,VS0,VE14',
+249 verbose headers   vary: 'Accept' }
+250 silly get cb [ 304,
+250 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+250 silly get     via: '1.1 varnish',
+250 silly get     'cache-control': 'max-age=300',
+250 silly get     etag: '"4ZI7RQOAO1RAWR0WP2LQGIU0D"',
+250 silly get     age: '0',
+250 silly get     connection: 'keep-alive',
+250 silly get     'x-served-by': 'cache-iad2139-IAD',
+250 silly get     'x-cache': 'HIT',
+250 silly get     'x-cache-hits': '1',
+250 silly get     'x-timer': 'S1451238512.341899,VS0,VE14',
+250 silly get     vary: 'Accept' } ]
+251 verbose etag https://registry.npmjs.org/gulp-uglify from cache
+252 verbose get saving gulp-uglify to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-uglify\.cache.json
+253 http 304 https://registry.npmjs.org/gulp-fontgen
+254 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+254 verbose headers   via: '1.1 varnish',
+254 verbose headers   'cache-control': 'max-age=300',
+254 verbose headers   etag: '"7B1O7I3O1Q0MR01N33ZI1BO85"',
+254 verbose headers   age: '0',
+254 verbose headers   connection: 'keep-alive',
+254 verbose headers   'x-served-by': 'cache-iad2121-IAD',
+254 verbose headers   'x-cache': 'MISS',
+254 verbose headers   'x-cache-hits': '0',
+254 verbose headers   'x-timer': 'S1451238512.340616,VS0,VE18',
+254 verbose headers   vary: 'Accept' }
+255 silly get cb [ 304,
+255 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+255 silly get     via: '1.1 varnish',
+255 silly get     'cache-control': 'max-age=300',
+255 silly get     etag: '"7B1O7I3O1Q0MR01N33ZI1BO85"',
+255 silly get     age: '0',
+255 silly get     connection: 'keep-alive',
+255 silly get     'x-served-by': 'cache-iad2121-IAD',
+255 silly get     'x-cache': 'MISS',
+255 silly get     'x-cache-hits': '0',
+255 silly get     'x-timer': 'S1451238512.340616,VS0,VE18',
+255 silly get     vary: 'Accept' } ]
+256 verbose etag https://registry.npmjs.org/gulp-fontgen from cache
+257 verbose get saving gulp-fontgen to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-fontgen\.cache.json
+258 http 304 https://registry.npmjs.org/gulp-html-replace
+259 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+259 verbose headers   via: '1.1 varnish',
+259 verbose headers   'cache-control': 'max-age=300',
+259 verbose headers   etag: '"CWXHHE46WCZALB98XDYNEZLA0"',
+259 verbose headers   age: '0',
+259 verbose headers   connection: 'keep-alive',
+259 verbose headers   'x-served-by': 'cache-iad2144-IAD',
+259 verbose headers   'x-cache': 'MISS',
+259 verbose headers   'x-cache-hits': '0',
+259 verbose headers   'x-timer': 'S1451238512.338815,VS0,VE26',
+259 verbose headers   vary: 'Accept' }
+260 silly get cb [ 304,
+260 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+260 silly get     via: '1.1 varnish',
+260 silly get     'cache-control': 'max-age=300',
+260 silly get     etag: '"CWXHHE46WCZALB98XDYNEZLA0"',
+260 silly get     age: '0',
+260 silly get     connection: 'keep-alive',
+260 silly get     'x-served-by': 'cache-iad2144-IAD',
+260 silly get     'x-cache': 'MISS',
+260 silly get     'x-cache-hits': '0',
+260 silly get     'x-timer': 'S1451238512.338815,VS0,VE26',
+260 silly get     vary: 'Accept' } ]
+261 verbose etag https://registry.npmjs.org/gulp-html-replace from cache
+262 verbose get saving gulp-html-replace to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-html-replace\.cache.json
+263 http 304 https://registry.npmjs.org/vinyl-fs
+264 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+264 verbose headers   via: '1.1 varnish',
+264 verbose headers   'cache-control': 'max-age=300',
+264 verbose headers   etag: '"8JPCD53DEOT13B701Y469OSH3"',
+264 verbose headers   age: '21',
+264 verbose headers   connection: 'keep-alive',
+264 verbose headers   'x-served-by': 'cache-iad2131-IAD',
+264 verbose headers   'x-cache': 'HIT',
+264 verbose headers   'x-cache-hits': '2',
+264 verbose headers   'x-timer': 'S1451238512.371902,VS0,VE0',
+264 verbose headers   vary: 'Accept' }
+265 silly get cb [ 304,
+265 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+265 silly get     via: '1.1 varnish',
+265 silly get     'cache-control': 'max-age=300',
+265 silly get     etag: '"8JPCD53DEOT13B701Y469OSH3"',
+265 silly get     age: '21',
+265 silly get     connection: 'keep-alive',
+265 silly get     'x-served-by': 'cache-iad2131-IAD',
+265 silly get     'x-cache': 'HIT',
+265 silly get     'x-cache-hits': '2',
+265 silly get     'x-timer': 'S1451238512.371902,VS0,VE0',
+265 silly get     vary: 'Accept' } ]
+266 verbose etag https://registry.npmjs.org/vinyl-fs from cache
+267 verbose get saving vinyl-fs to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\vinyl-fs\.cache.json
+268 http 304 https://registry.npmjs.org/gulp-concat-css
+269 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+269 verbose headers   via: '1.1 varnish',
+269 verbose headers   'cache-control': 'max-age=300',
+269 verbose headers   etag: '"9KP2KV61CS4Q6IK8IW31A05U5"',
+269 verbose headers   age: '0',
+269 verbose headers   connection: 'keep-alive',
+269 verbose headers   'x-served-by': 'cache-iad2139-IAD',
+269 verbose headers   'x-cache': 'HIT',
+269 verbose headers   'x-cache-hits': '1',
+269 verbose headers   'x-timer': 'S1451238512.302825,VS0,VE86',
+269 verbose headers   vary: 'Accept' }
+270 silly get cb [ 304,
+270 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+270 silly get     via: '1.1 varnish',
+270 silly get     'cache-control': 'max-age=300',
+270 silly get     etag: '"9KP2KV61CS4Q6IK8IW31A05U5"',
+270 silly get     age: '0',
+270 silly get     connection: 'keep-alive',
+270 silly get     'x-served-by': 'cache-iad2139-IAD',
+270 silly get     'x-cache': 'HIT',
+270 silly get     'x-cache-hits': '1',
+270 silly get     'x-timer': 'S1451238512.302825,VS0,VE86',
+270 silly get     vary: 'Accept' } ]
+271 verbose etag https://registry.npmjs.org/gulp-concat-css from cache
+272 verbose get saving gulp-concat-css to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-concat-css\.cache.json
+273 verbose request uri https://registry.npmjs.org/run-sequence
+274 verbose request no auth needed
+275 info attempt registry request try #1 at 12:48:32 PM
+276 verbose etag "9BMM7V8LSEF9ZHGUDC1JT4V60"
+277 http request GET https://registry.npmjs.org/run-sequence
+278 http 304 https://registry.npmjs.org/gulp-image-resize
+279 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+279 verbose headers   via: '1.1 varnish',
+279 verbose headers   'cache-control': 'max-age=300',
+279 verbose headers   etag: '"2T38324VAZ42I9JBE1AJ8GYI0"',
+279 verbose headers   age: '0',
+279 verbose headers   connection: 'keep-alive',
+279 verbose headers   'x-served-by': 'cache-iad2136-IAD',
+279 verbose headers   'x-cache': 'MISS',
+279 verbose headers   'x-cache-hits': '0',
+279 verbose headers   'x-timer': 'S1451238512.341215,VS0,VE60',
+279 verbose headers   vary: 'Accept' }
+280 silly get cb [ 304,
+280 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+280 silly get     via: '1.1 varnish',
+280 silly get     'cache-control': 'max-age=300',
+280 silly get     etag: '"2T38324VAZ42I9JBE1AJ8GYI0"',
+280 silly get     age: '0',
+280 silly get     connection: 'keep-alive',
+280 silly get     'x-served-by': 'cache-iad2136-IAD',
+280 silly get     'x-cache': 'MISS',
+280 silly get     'x-cache-hits': '0',
+280 silly get     'x-timer': 'S1451238512.341215,VS0,VE60',
+280 silly get     vary: 'Accept' } ]
+281 verbose etag https://registry.npmjs.org/gulp-image-resize from cache
+282 verbose get saving gulp-image-resize to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-image-resize\.cache.json
+283 http 200 https://registry.npmjs.org/gulp
+284 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+284 verbose headers   etag: '"CTPRTMWGLEXPBG20P81YM4UMU"',
+284 verbose headers   'content-type': 'application/json',
+284 verbose headers   'cache-control': 'max-age=300',
+284 verbose headers   'content-length': '108827',
+284 verbose headers   'accept-ranges': 'bytes',
+284 verbose headers   date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+284 verbose headers   via: '1.1 varnish',
+284 verbose headers   age: '127',
+284 verbose headers   connection: 'keep-alive',
+284 verbose headers   'x-served-by': 'cache-iad2139-IAD',
+284 verbose headers   'x-cache': 'HIT',
+284 verbose headers   'x-cache-hits': '1',
+284 verbose headers   'x-timer': 'S1451238512.342267,VS0,VE1',
+284 verbose headers   vary: 'Accept' }
+285 silly get cb [ 200,
+285 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+285 silly get     etag: '"CTPRTMWGLEXPBG20P81YM4UMU"',
+285 silly get     'content-type': 'application/json',
+285 silly get     'cache-control': 'max-age=300',
+285 silly get     'content-length': '108827',
+285 silly get     'accept-ranges': 'bytes',
+285 silly get     date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+285 silly get     via: '1.1 varnish',
+285 silly get     age: '127',
+285 silly get     connection: 'keep-alive',
+285 silly get     'x-served-by': 'cache-iad2139-IAD',
+285 silly get     'x-cache': 'HIT',
+285 silly get     'x-cache-hits': '1',
+285 silly get     'x-timer': 'S1451238512.342267,VS0,VE1',
+285 silly get     vary: 'Accept' } ]
+286 verbose get saving gulp to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+287 http 304 https://registry.npmjs.org/gulp-cache
+288 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+288 verbose headers   via: '1.1 varnish',
+288 verbose headers   'cache-control': 'max-age=300',
+288 verbose headers   etag: '"A06PXUM4L48Y55LW6HM9J7RKD"',
+288 verbose headers   age: '0',
+288 verbose headers   connection: 'keep-alive',
+288 verbose headers   'x-served-by': 'cache-iad2137-IAD',
+288 verbose headers   'x-cache': 'HIT',
+288 verbose headers   'x-cache-hits': '1',
+288 verbose headers   'x-timer': 'S1451238512.327606,VS0,VE97',
+288 verbose headers   vary: 'Accept' }
+289 silly get cb [ 304,
+289 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+289 silly get     via: '1.1 varnish',
+289 silly get     'cache-control': 'max-age=300',
+289 silly get     etag: '"A06PXUM4L48Y55LW6HM9J7RKD"',
+289 silly get     age: '0',
+289 silly get     connection: 'keep-alive',
+289 silly get     'x-served-by': 'cache-iad2137-IAD',
+289 silly get     'x-cache': 'HIT',
+289 silly get     'x-cache-hits': '1',
+289 silly get     'x-timer': 'S1451238512.327606,VS0,VE97',
+289 silly get     vary: 'Accept' } ]
+290 verbose etag https://registry.npmjs.org/gulp-cache from cache
+291 verbose get saving gulp-cache to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-cache\.cache.json
+292 http 200 https://registry.npmjs.org/bower
+293 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+293 verbose headers   etag: '"29H2XZ1C030L5443VPZB5GPR6"',
+293 verbose headers   'content-type': 'application/json',
+293 verbose headers   'cache-control': 'max-age=300',
+293 verbose headers   'content-length': '161700',
+293 verbose headers   'accept-ranges': 'bytes',
+293 verbose headers   date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+293 verbose headers   via: '1.1 varnish',
+293 verbose headers   age: '52',
+293 verbose headers   connection: 'keep-alive',
+293 verbose headers   'x-served-by': 'cache-iad2122-IAD',
+293 verbose headers   'x-cache': 'HIT',
+293 verbose headers   'x-cache-hits': '1',
+293 verbose headers   'x-timer': 'S1451238512.349891,VS0,VE0',
+293 verbose headers   vary: 'Accept' }
+294 silly get cb [ 200,
+294 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+294 silly get     etag: '"29H2XZ1C030L5443VPZB5GPR6"',
+294 silly get     'content-type': 'application/json',
+294 silly get     'cache-control': 'max-age=300',
+294 silly get     'content-length': '161700',
+294 silly get     'accept-ranges': 'bytes',
+294 silly get     date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+294 silly get     via: '1.1 varnish',
+294 silly get     age: '52',
+294 silly get     connection: 'keep-alive',
+294 silly get     'x-served-by': 'cache-iad2122-IAD',
+294 silly get     'x-cache': 'HIT',
+294 silly get     'x-cache-hits': '1',
+294 silly get     'x-timer': 'S1451238512.349891,VS0,VE0',
+294 silly get     vary: 'Accept' } ]
+295 verbose get saving bower to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\bower\.cache.json
+296 http 304 https://registry.npmjs.org/gulp-google-webfonts
+297 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+297 verbose headers   via: '1.1 varnish',
+297 verbose headers   'cache-control': 'max-age=300',
+297 verbose headers   etag: '"MOWP6UA0KLADT95VOYA2EB0B"',
+297 verbose headers   age: '0',
+297 verbose headers   connection: 'keep-alive',
+297 verbose headers   'x-served-by': 'cache-iad2140-IAD',
+297 verbose headers   'x-cache': 'MISS',
+297 verbose headers   'x-cache-hits': '0',
+297 verbose headers   'x-timer': 'S1451238512.327576,VS0,VE170',
+297 verbose headers   vary: 'Accept' }
+298 silly get cb [ 304,
+298 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+298 silly get     via: '1.1 varnish',
+298 silly get     'cache-control': 'max-age=300',
+298 silly get     etag: '"MOWP6UA0KLADT95VOYA2EB0B"',
+298 silly get     age: '0',
+298 silly get     connection: 'keep-alive',
+298 silly get     'x-served-by': 'cache-iad2140-IAD',
+298 silly get     'x-cache': 'MISS',
+298 silly get     'x-cache-hits': '0',
+298 silly get     'x-timer': 'S1451238512.327576,VS0,VE170',
+298 silly get     vary: 'Accept' } ]
+299 verbose etag https://registry.npmjs.org/gulp-google-webfonts from cache
+300 verbose get saving gulp-google-webfonts to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-google-webfonts\.cache.json
+301 silly cache add args [ 'gulp-cssnano', '^0.0.0' ]
+302 verbose cache add spec gulp-cssnano@^0.0.0
+303 silly cache add parsed spec Result {
+303 silly cache add   raw: 'gulp-cssnano@^0.0.0',
+303 silly cache add   scope: null,
+303 silly cache add   name: 'gulp-cssnano',
+303 silly cache add   rawSpec: '^0.0.0',
+303 silly cache add   spec: '>=0.0.0 <0.0.1',
+303 silly cache add   type: 'range' }
+304 silly addNamed gulp-cssnano@>=0.0.0 <0.0.1
+305 verbose addNamed ">=0.0.0 <0.0.1" is a valid semver range for gulp-cssnano
+306 silly addNameRange { name: 'gulp-cssnano', range: '>=0.0.0 <0.0.1', hasData: false }
+307 silly mapToRegistry name gulp-cssnano
+308 silly mapToRegistry using default registry
+309 silly mapToRegistry registry https://registry.npmjs.org/
+310 silly mapToRegistry uri https://registry.npmjs.org/gulp-cssnano
+311 verbose addNameRange registry:https://registry.npmjs.org/gulp-cssnano not in flight; fetching
+312 silly cache add args [ 'gulp-htmlmin', '^0.0.0' ]
+313 verbose cache add spec gulp-htmlmin@^0.0.0
+314 silly cache add parsed spec Result {
+314 silly cache add   raw: 'gulp-htmlmin@^0.0.0',
+314 silly cache add   scope: null,
+314 silly cache add   name: 'gulp-htmlmin',
+314 silly cache add   rawSpec: '^0.0.0',
+314 silly cache add   spec: '>=0.0.0 <0.0.1',
+314 silly cache add   type: 'range' }
+315 silly addNamed gulp-htmlmin@>=0.0.0 <0.0.1
+316 verbose addNamed ">=0.0.0 <0.0.1" is a valid semver range for gulp-htmlmin
+317 silly addNameRange { name: 'gulp-htmlmin', range: '>=0.0.0 <0.0.1', hasData: false }
+318 silly mapToRegistry name gulp-htmlmin
+319 silly mapToRegistry using default registry
+320 silly mapToRegistry registry https://registry.npmjs.org/
+321 silly mapToRegistry uri https://registry.npmjs.org/gulp-htmlmin
+322 verbose addNameRange registry:https://registry.npmjs.org/gulp-htmlmin not in flight; fetching
+323 http 304 https://registry.npmjs.org/run-sequence
+324 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+324 verbose headers   via: '1.1 varnish',
+324 verbose headers   'cache-control': 'max-age=300',
+324 verbose headers   etag: '"9BMM7V8LSEF9ZHGUDC1JT4V60"',
+324 verbose headers   age: '0',
+324 verbose headers   connection: 'keep-alive',
+324 verbose headers   'x-served-by': 'cache-jfk1035-JFK',
+324 verbose headers   'x-cache': 'HIT',
+324 verbose headers   'x-cache-hits': '1',
+324 verbose headers   'x-timer': 'S1451238512.564921,VS0,VE75',
+324 verbose headers   vary: 'Accept' }
+325 silly get cb [ 304,
+325 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+325 silly get     via: '1.1 varnish',
+325 silly get     'cache-control': 'max-age=300',
+325 silly get     etag: '"9BMM7V8LSEF9ZHGUDC1JT4V60"',
+325 silly get     age: '0',
+325 silly get     connection: 'keep-alive',
+325 silly get     'x-served-by': 'cache-jfk1035-JFK',
+325 silly get     'x-cache': 'HIT',
+325 silly get     'x-cache-hits': '1',
+325 silly get     'x-timer': 'S1451238512.564921,VS0,VE75',
+325 silly get     vary: 'Accept' } ]
+326 verbose etag https://registry.npmjs.org/run-sequence from cache
+327 verbose get saving run-sequence to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\run-sequence\.cache.json
+328 verbose get https://registry.npmjs.org/gulp-cssnano not expired, no request
+329 silly addNameRange number 2 { name: 'gulp-cssnano', range: '>=0.0.0 <0.0.1', hasData: true }
+330 silly addNameRange versions [ 'gulp-cssnano', [ '1.0.0', '1.1.0', '2.0.0' ] ]
+331 verbose get https://registry.npmjs.org/gulp-htmlmin not expired, no request
+332 silly addNameRange number 2 { name: 'gulp-htmlmin', range: '>=0.0.0 <0.0.1', hasData: true }
+333 silly addNameRange versions [ 'gulp-htmlmin',
+333 silly addNameRange   [ '0.1.0',
+333 silly addNameRange     '0.1.1',
+333 silly addNameRange     '0.1.2',
+333 silly addNameRange     '0.1.3',
+333 silly addNameRange     '0.2.0',
+333 silly addNameRange     '1.0.0',
+333 silly addNameRange     '1.1.0',
+333 silly addNameRange     '1.1.1',
+333 silly addNameRange     '1.1.2',
+333 silly addNameRange     '1.1.3',
+333 silly addNameRange     '1.1.4',
+333 silly addNameRange     '1.2.0',
+333 silly addNameRange     '1.3.0' ] ]
+334 http 304 https://registry.npmjs.org/gulp-imagemin
+335 verbose headers { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+335 verbose headers   via: '1.1 varnish',
+335 verbose headers   'cache-control': 'max-age=300',
+335 verbose headers   etag: '"6XFD5KJ8KJTCY9SFOZD10V7VG"',
+335 verbose headers   age: '0',
+335 verbose headers   connection: 'keep-alive',
+335 verbose headers   'x-served-by': 'cache-iad2141-IAD',
+335 verbose headers   'x-cache': 'HIT',
+335 verbose headers   'x-cache-hits': '1',
+335 verbose headers   'x-timer': 'S1451238512.334697,VS0,VE391',
+335 verbose headers   vary: 'Accept' }
+336 silly get cb [ 304,
+336 silly get   { date: 'Sun, 27 Dec 2015 17:48:32 GMT',
+336 silly get     via: '1.1 varnish',
+336 silly get     'cache-control': 'max-age=300',
+336 silly get     etag: '"6XFD5KJ8KJTCY9SFOZD10V7VG"',
+336 silly get     age: '0',
+336 silly get     connection: 'keep-alive',
+336 silly get     'x-served-by': 'cache-iad2141-IAD',
+336 silly get     'x-cache': 'HIT',
+336 silly get     'x-cache-hits': '1',
+336 silly get     'x-timer': 'S1451238512.334697,VS0,VE391',
+336 silly get     vary: 'Accept' } ]
+337 verbose etag https://registry.npmjs.org/gulp-imagemin from cache
+338 verbose get saving gulp-imagemin to C:\Users\Mark N Carpenter Je\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-imagemin\.cache.json
+339 verbose stack Error: No compatible version found: gulp-cssnano@'>=0.0.0 <0.0.1'
+339 verbose stack Valid install targets:
+339 verbose stack ["1.0.0","1.1.0","2.0.0"]
+339 verbose stack
+339 verbose stack     at installTargetsError (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:284:12)
+339 verbose stack     at next (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:262:19)
+339 verbose stack     at setData (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:236:5)
+339 verbose stack     at RES (C:\Program Files\nodejs\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+339 verbose stack     at f (C:\Program Files\nodejs\node_modules\npm\node_modules\once\once.js:17:25)
+339 verbose stack     at fixName (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:29:5)
+339 verbose stack     at CachingRegistryClient.get_ (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:125:16)
+339 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:91:14
+339 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:76:16
+339 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:380:3)
+340 verbose cwd D:\htdocs\projects\udacity-fend-p5-map
+341 error Windows_NT 6.1.7601
+342 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update"
+343 error node v4.2.4
+344 error npm  v2.14.12
+345 error code ETARGET
+346 error notarget No compatible version found: gulp-cssnano@'>=0.0.0 <0.0.1'
+346 error notarget Valid install targets:
+346 error notarget ["1.0.0","1.1.0","2.0.0"]
+346 error notarget
+346 error notarget This is most likely not a problem with npm itself.
+346 error notarget In most cases you or one of your dependencies are requesting
+346 error notarget a package version that doesn't exist.
+347 verbose exit [ 1, true ]

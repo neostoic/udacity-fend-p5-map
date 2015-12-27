@@ -17,7 +17,10 @@ This should also install NPM _(Node Package Manager)_.
 If bower is not globally installed it's not a bad idea to do that now.
 run: `npm install -g bower`
 
-once that completes run: `npm install --save-dev bower`
+once that completes:
+cd into `app/` by `cd app/`
+run: `npm install --save-dev bower`
+then run: `bower init` fill in the details.
 
 ### Install Gulp
 If Gulp is not globally installed it's not a bad idea to do that now.
